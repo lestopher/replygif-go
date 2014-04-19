@@ -1,6 +1,6 @@
 package replygif
 
-const REPLYGIF_API = "http://replygif.net"
+const REPLYGIF_API = "http://replygif.net/api"
 
 type ReplyGifGifData struct {
 	Id      string
