@@ -5,7 +5,7 @@ const REPLYGIF_API = "http://replygif.net/api"
 type ReplygifGifData struct {
 	Id      string
 	Tags    []string
-	Caption []string
+	Caption interface{}
 	File    string
 }
 
